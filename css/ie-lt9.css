@@ -1,0 +1,14 @@
+.slider-hover {display:none; filter:none}
+.slider-content ul li div.hover .slider-hover {display:block; filter:none}
+
+.services-header {background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#a3000000,endColorstr=#a3000000); zoom:1}
+.services-text {background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#dbffffff,endColorstr=#dbffffff); zoom:1}
+
+.terms-header,
+.contacts-header {background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#c4000000,endColorstr=#c4000000); zoom:1}
+.terms-text {background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#c7d9d9d9,endColorstr=#c7d9d9d9); zoom:1}
+
+.catalogue-info {background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ad181618,endColorstr=#ad181618); zoom:1}
+
+.message-error,
+.message-success {background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#efececec,endColorstr=#efececec); zoom:1}
