@@ -362,16 +362,15 @@ var catalogueTimer      = null;
     });
 
     $(window).load(function() {
-        var curURL = window.location.href;
+        var curURL = window.location.pathname;
         $('nav a').each(function() {
-            var curHref = $(this).attr('href').replace(/\//g, '');
+            var curHref = $(this).attr('href');
             if (curURL.indexOf(curHref) > -1) {
                 $(this).trigger('click');
             }
         });
         $('.catalogue-menu-item a').each(function() {
-            var curHref = $(this).attr('href').replace(/\//g, '');
-            var curHref = curHref.replace(/catalogue/g, '');
+            var curHref = $(this).attr('href');
             if (curURL.indexOf(curHref) > -1) {
                 $(this).trigger('click');
             }
